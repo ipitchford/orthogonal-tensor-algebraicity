@@ -1,0 +1,27 @@
+# Devil's Advocate — single confirmation round
+
+Frozen archive: `confirmation-v1.zip`, SHA-256 `2b3e4ccacf01ea9e2770d37e663b9c24af943120f40e5725b6efd2811bb1a0dc`, independently matched before extraction to a unique temporary directory.
+
+**Recommendation: Accept for the explicitly scoped, unrefereed classification-candidate publication.** No fatal mathematical, source-attribution, or rights issue was identified in the permitted materials. This is not certification of novelty, a high-three-star rating, external peer review, or a rights clearance of materials I was not assigned to inspect.
+
+## Strongest remaining objection
+
+The classification may be a useful assembly of classical ingredients whose exact historical priority remains unresolved. The character-weighted asymptotic inherits its decisive obstruction from the scalar result, and enlarging the quantifier to every fixed representation does not itself establish exceptional significance. That objection remains real but is now nonfatal to the authorized editorial scope: the abstract and Sections 9 and 14 expressly credit the scalar antecedent, distinguish the inherited methods, and disclaim established priority. The response matrix records the user's acceptance of that scope. Authorization changes the publication proposition; it supplies no mathematical evidence.
+
+The earlier major objection about the uninspected directly matching sources is addressed at the manuscript level by the explicit Regev Definition 3.1/Theorem 3.3/(F.4.5.1) translation and ADF Example 5.10 comparison. I checked those internal statements and their consistency, not the source PDFs themselves in this confirmation pass. The bounded sentence that the inspected sources do not state the exact classification is appropriately weaker than an exhaustive priority claim. Cohen–Regev remains explicitly unavailable.
+
+## Adversarial mathematical checks
+
+- **Every genuine fixed W:** character orthogonality computes the stated Hom dimension even for reducible representations. For a single central parity the identity character value is the positive integer `dim W`; no irreducibility assumption is smuggled into the asymptotic. For mixed parity, the two projections are genuine representations and algebraic parity extraction isolates a nonzero one. Cancellation between even and odd coefficients cannot rescue algebraicity.
+- **The two extrema and positivity:** compatible parity multiplies the character sign and trace-power sign at `-I` to +1. This remains true in even dimension when both extrema belong to the identity component. Bounded characters away from the extrema and their positive value at the identity justify the leading term and eventual positivity without requiring pointwise character positivity. The extra factor `m^epsilon dim W` is a nonzero integer and cannot remove the transcendental square-root amplitude. The radial argument and rational-coefficient descent cover algebraicity over C(t).
+- **Low dimensions and finite generation:** the O(2) reflection contribution and rotation half-mass give the displayed trivial, determinant and U_k formulas. The spin-zero boundary in O(3) and central parity extraction are consistent. Section 12 obtains generators from contraction pairings with at most d input-output connections, then projects onto W; it does not assume arbitrary submodules preserve finite generation. My earlier request for an explicit direct-sum generating object remains optional exposition, not an unclosed proof gap.
+- **Virtual cancellation:** the determinant covariant in rank four is the antisymmetric part of the same `U_n tensor U_n` space. Its dimension is `(C_n^2-C_n)/2`; subtracting from the trivial multiplicity yields `C_n`. At n=0 this also gives the correct values 1 and 0. Thus the difference is the Catalan series in t^2 and genuinely illustrates why virtual representations are excluded. It does not contradict the genuine-representation theorem.
+- **Finite diagnostics:** Section 8 explicitly limits the scripts to finite checks of formulas and conventions and identifies the written all-rank argument separately. The conclusion makes no computational-certification, efficient-algorithm, arbitrary-module or varying-type claim. No boundary inflation found.
+
+## Disposition and limits
+
+No required mathematical revision remains from this adversarial confirmation. The earlier significance/priority hold no longer applies to the expressly revised publication proposition; it must remain part of the historical review record rather than be rewritten as an endorsement of novelty. The low-rank ADF radical and scalar Regev asymptotic are now plainly credited in the principal manuscript, including its abstract.
+
+I read only my earlier substantive report, the response matrix, and the integrated paper, as instructed. The extracted bundle was treated read-only. I did not consult other role reports, rerun diagnostics, inspect PDF rendering, perform a new literature search, inspect licensing attachments, or independently validate the reported source audit/replay/QA. Those activities are outside this confirmation scope and cannot be inferred from this recommendation.
+
+Confidence is moderately high in the survival of the specific mathematical stress tests and high that the current text preserves the bounded priority and verification claims. This is an internal AI editorial assessment, not an independent specialist referee report or formal proof verification.

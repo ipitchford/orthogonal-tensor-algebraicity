@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.0",
+  "status": "unrefereed-candidate",
+  "claims": [
+    {"id":"C1","statement":"For every m>=1 and fixed nonzero finite-dimensional algebraic O(m,C) representation W, its ordinary tensor multiplicity series is D-finite and algebraic iff m<=3.","proof":"paper.md Sections 9-12","evidenceType":"written proof using named classical inputs","computation":"Finite low-rank diagnostics only","priority":"not-established"},
+    {"id":"C2","statement":"Reduced symmetric determinantal symmetric-sequence Hilbert series are algebraic iff the allowed rank is at most three; all finite ranks are D-finite.","proof":"paper.md Sections 1-8","evidenceType":"written proof","priority":"not-established"},
+    {"id":"C3","statement":"The scalar coefficient asymptotic including its exact constant is Regev 1981 Theorem 3.3 combined with F.4.5.1.","proof":"paper.md Sections 3 and 14; CITATION_AUDIT.md","evidenceType":"classical antecedent, rederived here","priority":"prior result"},
+    {"id":"C4","statement":"Virtual differences are excluded: in dimension four the trivial minus determinant series is algebraic.","proof":"paper.md Sections 7 and 14","evidenceType":"corollary of the symmetric/antisymmetric swap calculation","priority":"not claimed new"}
+  ]
+}

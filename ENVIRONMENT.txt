@@ -1,0 +1,4 @@
+Replay: Python >=3.10, standard library only; Linux CI uses Python 3.10 and 3.12.
+PDF: Pandoc with markdown+tex_math_single_backslash, pdflatex; rebuild command in README.md.
+No network needed for diagnostics. No third-party Python dependency.
+Not a hermetic environment. PDF embedded timestamps can change rebuilt bytes.

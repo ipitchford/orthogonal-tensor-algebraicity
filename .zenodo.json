@@ -1,0 +1,13 @@
+{
+  "title": "The algebraicity threshold for orthogonal tensor multiplicities",
+  "doi": "10.5281/zenodo.22660867",
+  "related_identifiers": [{"identifier":"https://github.com/ipitchford/orthogonal-tensor-algebraicity","relation":"isSupplementTo","scheme":"url"}],
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [{"name": "Anonymous"}],
+  "version": "0.1.0-candidate",
+  "publication_date": "2026-09-08",
+  "access_right": "open",
+  "license": "cc-zero",
+  "description": "Unrefereed classification candidate: every fixed nonzero finite-dimensional algebraic O(m,C) representation has a D-finite ordinary tensor-multiplicity series, algebraic exactly when m is at most three. Scalar asymptotics are explicitly attributed to Regev and the rank-three radical to Almkvist-Dicks-Formanek. Exact finite producer diagnostics accompany the written proof. Historical priority, external specialist review, independent reproduction and formal verification are not established. Original prose is CC0-1.0; original code is MIT; third-party content is excluded or separately identified."
+}

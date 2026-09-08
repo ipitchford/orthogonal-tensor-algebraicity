@@ -1,0 +1,629 @@
+{
+  "status": "PASS",
+  "manifestChecked": true,
+  "boundary": "Producer finite diagnostics, not universal or independent validation",
+  "checks": [
+    {
+      "argv": [
+        "python3",
+        "verify.py"
+      ],
+      "output": {
+        "status": "PASS",
+        "scope": "Finite exact diagnostic checks; all-rank proof is SOLUTION.md",
+        "max_rank": 8,
+        "max_n": 14,
+        "hook_vs_corner_shapes": 463,
+        "polynomial_witness_degree": 20,
+        "constant_evidence_boundary": "Ranks 2,3,4 matched to closed-form asymptotics; ranks 5..16 evaluate the proved formula, not independent estimates",
+        "coefficient_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            3,
+            10,
+            35,
+            126,
+            462,
+            1716,
+            6435,
+            24310,
+            92378,
+            352716,
+            1352078,
+            5200300,
+            20058300
+          ],
+          [
+            1,
+            1,
+            3,
+            15,
+            91,
+            603,
+            4213,
+            30537,
+            227475,
+            1730787,
+            13393689,
+            105089229,
+            834086421,
+            6684761125,
+            54022715451
+          ],
+          [
+            1,
+            1,
+            3,
+            15,
+            105,
+            903,
+            8778,
+            92235,
+            1023165,
+            11821953,
+            141061206,
+            1727926291,
+            21634600078,
+            275950576450,
+            3576315994020
+          ],
+          [
+            1,
+            1,
+            3,
+            15,
+            105,
+            945,
+            10263,
+            127699,
+            1751685,
+            25807445,
+            401449271,
+            6519160851,
+            109656966853,
+            1899821492925,
+            33757439931675
+          ],
+          [
+            1,
+            1,
+            3,
+            15,
+            105,
+            945,
+            10395,
+            134706,
+            1993563,
+            32801483,
+            586923623,
+            11226244848,
+            226603057642,
+            4781315692080,
+            104715455347755
+          ],
+          [
+            1,
+            1,
+            3,
+            15,
+            105,
+            945,
+            10395,
+            135135,
+            2025595,
+            34311355,
+            645241273,
+            13258090237,
+            293507529091,
+            6917684951275,
+            171890128204425
+          ],
+          [
+            1,
+            1,
+            3,
+            15,
+            105,
+            945,
+            10395,
+            135135,
+            2027025,
+            34454563,
+            654082429,
+            13697184189,
+            312896731836,
+            7717656580875,
+            203608691254755
+          ]
+        ],
+        "constant_checks": [
+          {
+            "rank": 2,
+            "alpha": "1/2",
+            "A_squared": "1/4",
+            "pi_exponent_in_c": "-1/2",
+            "obstruction": "none; explicit algebraic formula"
+          },
+          {
+            "rank": 3,
+            "alpha": "3/2",
+            "A_squared": "27/512",
+            "pi_exponent_in_c": "-1/2",
+            "obstruction": "none; explicit algebraic formula"
+          },
+          {
+            "rank": 4,
+            "alpha": "3",
+            "A_squared": "1/4",
+            "pi_exponent_in_c": "-1",
+            "obstruction": "logarithm"
+          },
+          {
+            "rank": 5,
+            "alpha": "5",
+            "A_squared": "87890625/16777216",
+            "pi_exponent_in_c": "-1",
+            "obstruction": "logarithm"
+          },
+          {
+            "rank": 6,
+            "alpha": "15/2",
+            "A_squared": "129140163/16384",
+            "pi_exponent_in_c": "-3/2",
+            "obstruction": "transcendental square-root amplitude"
+          },
+          {
+            "rank": 7,
+            "alpha": "21/2",
+            "A_squared": "1131055374768650114175/8796093022208",
+            "pi_exponent_in_c": "-3/2",
+            "obstruction": "transcendental square-root amplitude"
+          },
+          {
+            "rank": 8,
+            "alpha": "14",
+            "A_squared": "313103115878400",
+            "pi_exponent_in_c": "-2",
+            "obstruction": "logarithm"
+          },
+          {
+            "rank": 9,
+            "alpha": "18",
+            "A_squared": "4526645400814343901555048312570488489030625/295147905179352825856",
+            "pi_exponent_in_c": "-2",
+            "obstruction": "logarithm"
+          },
+          {
+            "rank": 10,
+            "alpha": "45/2",
+            "A_squared": "51397126554775240947492420673370361328125/268435456",
+            "pi_exponent_in_c": "-5/2",
+            "obstruction": "transcendental square-root amplitude"
+          },
+          {
+            "rank": 11,
+            "alpha": "55/2",
+            "A_squared": "3053162680697394080236270425206461798276890766583808853460389596049546875/39614081257132168796771975168",
+            "pi_exponent_in_c": "-5/2",
+            "obstruction": "transcendental square-root amplitude"
+          },
+          {
+            "rank": 12,
+            "alpha": "33",
+            "A_squared": "12056950033699374424364492019895162152205452469862400000000",
+            "pi_exponent_in_c": "-3",
+            "obstruction": "logarithm"
+          },
+          {
+            "rank": 13,
+            "alpha": "39",
+            "A_squared": "30308556093131242503881310653302070163844938960540219734084591488834850020568347839236637197599524428675009765625/340282366920938463463374607431768211456",
+            "pi_exponent_in_c": "-3",
+            "obstruction": "logarithm"
+          },
+          {
+            "rank": 14,
+            "alpha": "91/2",
+            "A_squared": "6372802154378731667074738468506400099188688453689478673030476551052349116670657974482266487444132568359375/17592186044416",
+            "pi_exponent_in_c": "-7/2",
+            "obstruction": "transcendental square-root amplitude"
+          },
+          {
+            "rank": 15,
+            "alpha": "105/2",
+            "A_squared": "4482565945015580085582023183407587858785988253800122284758493602035394498199523227336577219329212566955915093632755144179534434467626624609692953526973724365234375/46768052394588893382517914646921056628989841375232",
+            "pi_exponent_in_c": "-7/2",
+            "obstruction": "transcendental square-root amplitude"
+          },
+          {
+            "rank": 16,
+            "alpha": "60",
+            "A_squared": "18782105137575444251434620010522717965053852707679096896973180062266358710848296412111942078683973728569136920226493890560000000000000000",
+            "pi_exponent_in_c": "-4",
+            "obstruction": "logarithm"
+          }
+        ],
+        "negative_controls": "All three incorrect formulas rejected",
+        "dependencies": "Python standard library only"
+      }
+    },
+    {
+      "argv": [
+        "python3",
+        "-O",
+        "verify.py"
+      ],
+      "output": {
+        "status": "PASS",
+        "scope": "Finite exact diagnostic checks; all-rank proof is SOLUTION.md",
+        "max_rank": 8,
+        "max_n": 14,
+        "hook_vs_corner_shapes": 463,
+        "polynomial_witness_degree": 20,
+        "constant_evidence_boundary": "Ranks 2,3,4 matched to closed-form asymptotics; ranks 5..16 evaluate the proved formula, not independent estimates",
+        "coefficient_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            3,
+            10,
+            35,
+            126,
+            462,
+            1716,
+            6435,
+            24310,
+            92378,
+            352716,
+            1352078,
+            5200300,
+            20058300
+          ],
+          [
+            1,
+            1,
+            3,
+            15,
+            91,
+            603,
+            4213,
+            30537,
+            227475,
+            1730787,
+            13393689,
+            105089229,
+            834086421,
+            6684761125,
+            54022715451
+          ],
+          [
+            1,
+            1,
+            3,
+            15,
+            105,
+            903,
+            8778,
+            92235,
+            1023165,
+            11821953,
+            141061206,
+            1727926291,
+            21634600078,
+            275950576450,
+            3576315994020
+          ],
+          [
+            1,
+            1,
+            3,
+            15,
+            105,
+            945,
+            10263,
+            127699,
+            1751685,
+            25807445,
+            401449271,
+            6519160851,
+            109656966853,
+            1899821492925,
+            33757439931675
+          ],
+          [
+            1,
+            1,
+            3,
+            15,
+            105,
+            945,
+            10395,
+            134706,
+            1993563,
+            32801483,
+            586923623,
+            11226244848,
+            226603057642,
+            4781315692080,
+            104715455347755
+          ],
+          [
+            1,
+            1,
+            3,
+            15,
+            105,
+            945,
+            10395,
+            135135,
+            2025595,
+            34311355,
+            645241273,
+            13258090237,
+            293507529091,
+            6917684951275,
+            171890128204425
+          ],
+          [
+            1,
+            1,
+            3,
+            15,
+            105,
+            945,
+            10395,
+            135135,
+            2027025,
+            34454563,
+            654082429,
+            13697184189,
+            312896731836,
+            7717656580875,
+            203608691254755
+          ]
+        ],
+        "constant_checks": [
+          {
+            "rank": 2,
+            "alpha": "1/2",
+            "A_squared": "1/4",
+            "pi_exponent_in_c": "-1/2",
+            "obstruction": "none; explicit algebraic formula"
+          },
+          {
+            "rank": 3,
+            "alpha": "3/2",
+            "A_squared": "27/512",
+            "pi_exponent_in_c": "-1/2",
+            "obstruction": "none; explicit algebraic formula"
+          },
+          {
+            "rank": 4,
+            "alpha": "3",
+            "A_squared": "1/4",
+            "pi_exponent_in_c": "-1",
+            "obstruction": "logarithm"
+          },
+          {
+            "rank": 5,
+            "alpha": "5",
+            "A_squared": "87890625/16777216",
+            "pi_exponent_in_c": "-1",
+            "obstruction": "logarithm"
+          },
+          {
+            "rank": 6,
+            "alpha": "15/2",
+            "A_squared": "129140163/16384",
+            "pi_exponent_in_c": "-3/2",
+            "obstruction": "transcendental square-root amplitude"
+          },
+          {
+            "rank": 7,
+            "alpha": "21/2",
+            "A_squared": "1131055374768650114175/8796093022208",
+            "pi_exponent_in_c": "-3/2",
+            "obstruction": "transcendental square-root amplitude"
+          },
+          {
+            "rank": 8,
+            "alpha": "14",
+            "A_squared": "313103115878400",
+            "pi_exponent_in_c": "-2",
+            "obstruction": "logarithm"
+          },
+          {
+            "rank": 9,
+            "alpha": "18",
+            "A_squared": "4526645400814343901555048312570488489030625/295147905179352825856",
+            "pi_exponent_in_c": "-2",
+            "obstruction": "logarithm"
+          },
+          {
+            "rank": 10,
+            "alpha": "45/2",
+            "A_squared": "51397126554775240947492420673370361328125/268435456",
+            "pi_exponent_in_c": "-5/2",
+            "obstruction": "transcendental square-root amplitude"
+          },
+          {
+            "rank": 11,
+            "alpha": "55/2",
+            "A_squared": "3053162680697394080236270425206461798276890766583808853460389596049546875/39614081257132168796771975168",
+            "pi_exponent_in_c": "-5/2",
+            "obstruction": "transcendental square-root amplitude"
+          },
+          {
+            "rank": 12,
+            "alpha": "33",
+            "A_squared": "12056950033699374424364492019895162152205452469862400000000",
+            "pi_exponent_in_c": "-3",
+            "obstruction": "logarithm"
+          },
+          {
+            "rank": 13,
+            "alpha": "39",
+            "A_squared": "30308556093131242503881310653302070163844938960540219734084591488834850020568347839236637197599524428675009765625/340282366920938463463374607431768211456",
+            "pi_exponent_in_c": "-3",
+            "obstruction": "logarithm"
+          },
+          {
+            "rank": 14,
+            "alpha": "91/2",
+            "A_squared": "6372802154378731667074738468506400099188688453689478673030476551052349116670657974482266487444132568359375/17592186044416",
+            "pi_exponent_in_c": "-7/2",
+            "obstruction": "transcendental square-root amplitude"
+          },
+          {
+            "rank": 15,
+            "alpha": "105/2",
+            "A_squared": "4482565945015580085582023183407587858785988253800122284758493602035394498199523227336577219329212566955915093632755144179534434467626624609692953526973724365234375/46768052394588893382517914646921056628989841375232",
+            "pi_exponent_in_c": "-7/2",
+            "obstruction": "transcendental square-root amplitude"
+          },
+          {
+            "rank": 16,
+            "alpha": "60",
+            "A_squared": "18782105137575444251434620010522717965053852707679096896973180062266358710848296412111942078683973728569136920226493890560000000000000000",
+            "pi_exponent_in_c": "-4",
+            "obstruction": "logarithm"
+          }
+        ],
+        "negative_controls": "All three incorrect formulas rejected",
+        "dependencies": "Python standard library only"
+      }
+    },
+    {
+      "argv": [
+        "python3",
+        "test_verifier.py"
+      ],
+      "output": {
+        "status": "PASS",
+        "mutation": "rank-three divisor 4 to 5",
+        "runs": [
+          {
+            "mode": [
+              "normal"
+            ],
+            "valid": "PASS",
+            "mutant": "REJECTED"
+          },
+          {
+            "mode": [
+              "-O"
+            ],
+            "valid": "PASS",
+            "mutant": "REJECTED"
+          },
+          {
+            "mode": [
+              "-OO"
+            ],
+            "valid": "PASS",
+            "mutant": "REJECTED"
+          }
+        ]
+      }
+    },
+    {
+      "argv": [
+        "python3",
+        "verify_covariants.py"
+      ],
+      "output": {
+        "status": "PASS",
+        "degree": 28,
+        "O2_weight_checks": 841,
+        "SO3_spin_checks": 841,
+        "O3_both_parities_checked": true,
+        "scope": "Finite low-rank formulas only; no novelty or all-rank certificate"
+      }
+    },
+    {
+      "argv": [
+        "python3",
+        "-O",
+        "verify_covariants.py"
+      ],
+      "output": {
+        "status": "PASS",
+        "degree": 28,
+        "O2_weight_checks": 841,
+        "SO3_spin_checks": 841,
+        "O3_both_parities_checked": true,
+        "scope": "Finite low-rank formulas only; no novelty or all-rank certificate"
+      }
+    }
+  ],
+  "recordedAt": "2026-09-08T12:56:36.344856+00:00"
+}
